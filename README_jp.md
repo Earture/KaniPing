@@ -47,4 +47,4 @@
 MITライセンスのもとで配布されています。詳細については[`LICENSE`](./LICENSE)をご覧ください。
 
 ## 🐈‍⬛Buy Me A Coffee
-<img src="./assets/coffee.png" alt="プロジェクトアイコン" width="200">
+<img src="./assets/coffee.jpg" alt="プロジェクトアイコン" width="200">

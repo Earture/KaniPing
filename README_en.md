@@ -19,13 +19,13 @@ Welcome! A ping monitoring tool built with Rust!
 
 ## Supported Features
 - 💫 Batch detection of IP or domain connectivity
-- 💫 Direct import of Excel files
+- 💫 Direct import of Excel file
 - 💫 Small in size, fast, with low system resource usage
 - 💫 Supports Kylin x86/ARM and other systems
 
 ## ⚡ Quick Start
 
-### The easiest method is to [download the precompiled executable file](https://docs.all-hands.dev/modules/usage/runtimes#connecting-to-your-filesystem)
+### The easy way to use is [download the precompiled executable file](https://docs.all-hands.dev/modules/usage/runtimes#connecting-to-your-filesystem)
 
 - **1. Double-click the executable file to run it**
 > [!WARNING]
@@ -47,4 +47,4 @@ Welcome! A ping monitoring tool built with Rust!
 Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
 
 ## 🐈‍⬛ Buy Me A Coffee
-<img src="./assets/coffee.png" alt="Project Icon" width="200">
+<img src="./assets/coffee.jpg" alt="Project Icon" width="200">

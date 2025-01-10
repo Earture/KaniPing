@@ -47,4 +47,4 @@
 Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
 
 ## 🐈‍⬛Buy Me A Coffee
-<img src="./assets/coffee.png" alt="项目图标" width="200">
+<img src="./assets/coffee.jpg" alt="项目图标" width="200">
