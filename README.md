@@ -5,8 +5,9 @@
 </div>
 
 <div align="center">
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Status](https://img.shields.io/badge/status-active-success.svg) ![Contributors](https://img.shields.io/github/contributors/earture/kaniping.svg)
-<div align="center">
+<a href="https://github.com/Earture/KaniPing/blob/main/LICENSE"><img src="https://img.shields.io/github/license/earture/kaniping?style=for-the-badge&color=blue" alt="MIT License"></a>
+
+</div>
 > 一个用纯Rust实现的批量网络通断Ping实时监测程序
 
 ---
