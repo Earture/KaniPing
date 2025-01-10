@@ -1,11 +1,12 @@
 <div align="center">
   <img src="src/app.png" alt="项目图标" width="200">
+  <h1 align="center">KaniPing - A  Ping Tool Written  in Rust.</h1>
+
 </div>
 
-# KaniPing - A  Ping Tool Written  in Rust.
-
+<div align="center">
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Status](https://img.shields.io/badge/status-active-success.svg) ![Contributors](https://img.shields.io/github/contributors/earture/kaniping.svg)
-
+<div align="center">
 > 一个用纯Rust实现的批量网络通断Ping实时监测程序
 
 ---
