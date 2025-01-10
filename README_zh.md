@@ -1,6 +1,6 @@
 # KaniPing - A  Ping Tool Written  in Rust.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Status](https://img.shields.io/badge/status-active-success.svg) ![Contributors](https://img.shields.io/github/contributors/username/repo.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Status](https://img.shields.io/badge/status-active-success.svg) ![Contributors](https://img.shields.io/github/contributors/earture/kaniping.svg)
 
 > 一个用纯Rust实现的批量网络通断Ping实时监测程序
 
