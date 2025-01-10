@@ -241,6 +241,43 @@ impl PingMonitorApp {
             }
         }
     }
+
+    //以代码可以实现在无需root权限的环境下执行ping操作，原理是直接调用
+    //系统自带的ping命令，延迟较高，如需此版本，请解开下面代码的注释，同时
+    //注释掉上面的 ping、ping_ip 方法，并重新编译。
+
+    // This can implement the ping operation without root privileges by directly calling
+    // the system's built-in ping command. The delay is higher. If you need this version,
+    // please uncomment the code below, comment out the above ping and ping_ip methods,
+    // and recompile.
+
+    // これはroot権限なしでping操作を実行する方法で、システムに組み込まれたpingコマンドを直接呼び出します。
+    // 遅延が高くなります。このバージョンが必要な場合は、下記のコードのコメントを解除し、
+    // 上記のpingおよびping_ipメソッドのコメントを外してから再コンパイルしてください。
+
+    // fn ping(ip: &str) -> (String, bool) {
+    //     let output = if cfg!(target_os = "windows") {
+    //         std::process::Command::new("ping")
+    //             .args(["-n", "1", "-w", "700", ip])
+    //             .output()
+    //     } else {
+    //         std::process::Command::new("ping")
+    //             .args(["-c", "1", "-W", "700", ip])
+    //             .output()
+    //     };
+    //
+    //     match output {
+    //         Ok(output) => {
+    //             let output_str = String::from_utf8_lossy(&output.stdout);
+    //             if output_str.contains("TTL=") || output_str.contains("time=") {
+    //                 ("Success".to_string(), false)
+    //             } else {
+    //                 ("Timeout".to_string(), true)
+    //             }
+    //         }
+    //         Err(_) => ("Error".to_string(), true),
+    //     }
+    // }
     
 }
 
