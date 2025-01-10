@@ -26,3 +26,13 @@ embed-resource = "3.0.1" #为了配置软件在 windows 系统下的图标
 
 # 如果需要配置 rustflags，请通过环境变量或 .cargo/config.toml 配置
 # 或在Powershell执行 $env:RUSTFLAGS="-C target-feature=+crt-static"
+
+[package.metadata.bundle]
+name = "KaniPing"
+identifier = "org.earture.KaniPing"
+version = "0.1.0"
+icon = ["icon.icns"]
+
+[package.metadata.bundle.macos]
+info-plist = {NSDocumentsFolderUsageDescription = "This app needs access to system-level operations."}
+
