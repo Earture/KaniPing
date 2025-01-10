@@ -1,0 +1,28 @@
+[package]
+name = "KaniPing"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+egui = "0.22"
+calamine = "0.19"
+rfd = "0.10"
+crossbeam-channel = "0.5"
+threadpool = "1.8"
+eframe = { version = "0.22", features = ["glow"] }
+winapi = { version = "0.3", features = ["winuser", "windef"] }
+chrono = "0.4"     # 用于处理时间
+image = "0.24.5"
+ping = "0.5.2"
+dns-lookup = "2.0.4"
+
+[profile.release]
+panic = "abort" # 可选，减少运行时依赖
+lto = "fat"      # 可选，优化体积
+
+[build-dependencies]
+embed-resource = "3.0.1" #为了配置软件在 windows 系统下的图标
+
+# 如果需要配置 rustflags，请通过环境变量或 .cargo/config.toml 配置
+# 或在Powershell执行 $env:RUSTFLAGS="-C target-feature=+crt-static"
