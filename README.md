@@ -12,7 +12,7 @@
 
 欢迎使用!一个由Rust构建的网络通断PING批量监测工具！
 
-![App screenshot](./assets/screenshot.png)
+![App screenshot](./assets/Screenshot.png)
 
 ## ⚡ 快速开始
 
