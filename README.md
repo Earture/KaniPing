@@ -4,6 +4,8 @@
 </div>
 
 <div align="center">
+<a href="https://github.com/All-Hands-AI/OpenHands/graphs/contributors"><img src="https://img.shields.io/github/contributors/Earture/KaniPing?style=for-the-badge&color=blue" alt="Contributors"></a>
+  <a href="https://github.com/Earture/KaniPing/stargazers"><img src="https://img.shields.io/github/stars/Earture/KaniPing?style=for-the-badge&color=blue" alt="Stargazers"></a>
 <a href="https://github.com/Earture/KaniPing/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Earture/KaniPing?style=for-the-badge&color=blue" alt="MIT License"></a>
 
  <hr>
