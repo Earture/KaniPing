@@ -1,7 +1,6 @@
 <div align="center">
   <img src="src/app.png" alt="项目图标" width="200">
   <h1 align="center">🦀KaniPing - A  Ping Tool Written in Rust.</h1>
-
 </div>
 
 <div align="center">
@@ -12,7 +11,9 @@
 
 欢迎使用!一个由Rust构建的网络通断PING批量监测工具！
 
-![App screenshot](./assets/Screenshot.png)
+<div align="center">
+  <img src="./assets/Screenshot.png" alt="项目截图" width="500">
+</div>
 
 ## ⚡ 快速开始
 
