@@ -25,14 +25,14 @@
 
 ## ⚡ クイックスタート
 
-### 最も簡単な方法は [コンパイル済みの実行ファイルをダウンロードすることです](https://docs.all-hands.dev/modules/usage/runtimes#connecting-to-your-filesystem)
+### 最も簡単な方法は [コンパイル済みの実行ファイルをダウンロードすることです](https://github.com/Earture/KaniPing/releases)
 
 - **1. 実行ファイルをダブルクリックで実行**
 > [!WARNING]
 > プログラムはRustのネイティブライブラリを使用してPINGリクエストを行うため、ターゲットシステムの管理者権限が必要です！
 > - Windows `右クリックして「管理者として実行」を選択`
 > - Linux\MacOS `sudo ./KaniPing`
-> - MacOS `sudo ./KaniPing.app/Contents/MacOS/KaniPing`
+> - MacOS `sudo ./KaniPing`,`sudo ./KaniPing.app/Contents/MacOS/KaniPing`
 - **2. 左上の`Load Excel`をクリックしてExcelファイルをインポート**
 > [!IMPORTANT]
 > Excelファイルの最初の3列はIP（ドメイン）、名前、位置である必要があります。プログラムはヘッダー行を自動的に無視します。

@@ -25,14 +25,14 @@ Welcome! A ping monitoring tool built with Rust!
 
 ## ⚡ Quick Start
 
-### The easy way to use is [download the precompiled executable file](https://docs.all-hands.dev/modules/usage/runtimes#connecting-to-your-filesystem)
+### The easy way to use is [download the precompiled executable file](https://github.com/Earture/KaniPing/releases)
 
 - **1. Double-click the executable file to run it**
 > [!WARNING]
 > Since the program uses native Rust libraries for ping requests, administrator permissions are required for the target system!
 > - Windows `Right-click and choose "Run as administrator"`
 > - Linux\MacOS `sudo ./KaniPing`
-> - MacOS `sudo ./KaniPing.app/Contents/MacOS/KaniPing`
+> - MacOS `sudo ./KaniPing`,`sudo ./KaniPing.app/Contents/MacOS/KaniPing`
 - **2. Click `Load Excel` in the top left to import an Excel file**
 > [!IMPORTANT]
 > The first three columns of the Excel file must be IP (Domain), Name, and Location, and the program will automatically ignore the first row as the header.
