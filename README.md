@@ -9,6 +9,7 @@
  <hr>
 </div>
 
+<[English](README_en.md) |  [日文](README_jp.md) | [简体中文](README.md)>
 欢迎使用!一个由Rust构建的网络通断PING批量监测工具！
 
 <div align="center">
@@ -27,9 +28,8 @@
 - 2.点击左上角`Load Excel`导入excel文件，excel文件
 > [!IMPORTANT]
 > Excel文件前三列必须为IP（域名）、名称、位置，同时程序会自动忽略作为表头的第一行
-- 点击左上角`Start Monitoring` 即可开始动态监测，每`5秒`刷新一次
-- 点击左上角`Stop Monitoring` 即可停止监测刷新
-
+- 3.点击左上角`Start Monitoring` 即可开始动态监测，每`5秒`刷新一次
+- 4.点击左上角`Stop Monitoring` 即可停止监测刷新
 
 ## 📜 License
 
